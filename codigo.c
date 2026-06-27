@@ -5,8 +5,8 @@
 #include <math.h>
 
 // ===== WIFI =====
-const char* ssid = "CLARO_95560A";
-const char* password = "h7XxtU9#c2";
+const char* ssid = "nome_da_rede";
+const char* password = "senha_da_rede";
 
 WebServer server(80);
 
