@@ -1,6 +1,8 @@
 # Battery-Monitoring-System-V2
 Evolução do projeto anterior de Monitoramento de Parâmetros Elétricos e Térmicos de Duas Células de Bateria de 4 V
 
+<img width="735" height="550" alt="image" src="https://github.com/user-attachments/assets/8c6d4141-8982-49fa-a0ae-bc912e85d8f8" />
+
 ## Descrição
 Este projeto realiza a medição da tensão e da corrente de duas células de bateriar pondendo estar em carga usando o módulo TP4056 utilizando o sensor INA219 current sensor module por meio do protocolo I²C, além de monitorar a temperatura através de um termistor NTC222 conectado a um conversor ADC. Essa versão é mais enxuta que a anterior pois os componentes usados estão todos soldados em uma que foi feita no KiCad.
 Quando a temperatura de uma das duas células ultrapassa um determinado limiar (threshold), um buzzer é acionado como mecanismo de alerta.
@@ -16,3 +18,5 @@ Para a medição de temperatura, os termistores foram ligados a divisores resist
 O TP4056 foi conectado em paralelo com as duas células de 4 volts, sendo alimentando por um cabo micro-usb. 
 
 Abaixo um esquema das conexões feitas:
+<img width="772" height="441" alt="image" src="https://github.com/user-attachments/assets/b2e823aa-031f-485e-82ac-a9f27ada1d4a" />
+
