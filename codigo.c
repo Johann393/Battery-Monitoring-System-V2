@@ -4,7 +4,7 @@
 #include <Adafruit_INA219.h>
 #include <math.h>
 
-// ===== WIFI =====
+// ===== WIFI ====
 const char* ssid = "nome_da_rede";
 const char* password = "senha_da_rede";
 
